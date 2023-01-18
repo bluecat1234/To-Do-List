@@ -170,13 +170,16 @@ option{
 
 @media screen and (max-width: 768px) {
     header {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     form input, 
     form button {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .todo-list {
-        min-width: 100%;
+        min-width: 95%;
+    }
+    .select {
+        display: none;
     }
  }
